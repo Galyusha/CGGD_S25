@@ -109,6 +109,7 @@ void cg::renderer::ray_tracing_renderer::render()
 										  const triangle<cg::vertex>& triangle) {
 		return payload;
 	};
+	
 
 	auto start = std::chrono::high_resolution_clock::now();
 	raytracer->ray_generation(
